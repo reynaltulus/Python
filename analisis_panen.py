@@ -25,7 +25,7 @@ data_panen = {
 def panen_list(data):
     print(" ======== Nomor 1 ===========")
     for value in data.values():
-        print(f"Lokasi panenkugi {value['nama_lokasi']}\nHasil panen\nJagung {value['hasil_panen']['jagung']}\nPadi {value['hasil_panen']['padi']}\nKedelai {value['hasil_panen']['kedelai']}\n")
+        print(f"Lokasi panen {value['nama_lokasi']}\nHasil panen\nJagung {value['hasil_panen']['jagung']}\nPadi {value['hasil_panen']['padi']}\nKedelai {value['hasil_panen']['kedelai']}\n")
     
     print("\n ======== Nomor 2 ===========")
     lokasi2 = data.get("lokasi2")
