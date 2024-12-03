@@ -30,7 +30,7 @@ def panen_list(data):
     print("\n ======== Nomor 2 ===========")
     lokasi2 = data.get("lokasi2")
     if lokasi2:
-        print(f"Lokasi {lokasi2['nama_lokasi']}\nHasil panen\nJagung {lokasi2['hasil_panen']['jagung']}\n")
+        print(f"Lokasi panenmu {lokasi2['nama_lokasi']}\nHasil panen\nJagung {lokasi2['hasil_panen']['jagung']}\n")
     
     print("\n ======== Nomor 3 ===========")
     lokasi3 = data.get("lokasi3")
