@@ -56,3 +56,4 @@ def panen_list(data):
 
 panen_list(data_panen)
 print('aku sayang rokok')
+print('ghalit gercep kalo ke cewe')
