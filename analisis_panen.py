@@ -22,7 +22,7 @@ data_panen = {
 }
 
 
-def harvest_list(data):
+def panen_list(data):
     print(" ======== Nomor 1 ===========")
     for value in data.values():
         print(f"Lokasi {value['nama_lokasi']}\nHasil panen\nJagung {value['hasil_panen']['jagung']}\nPadi {value['hasil_panen']['padi']}\nKedelai {value['hasil_panen']['kedelai']}\n")
@@ -54,4 +54,5 @@ def harvest_list(data):
             print(f"Lokasi {key} dalam kondisi baik")
 
 
-harvest_list(data_panen)
+panen_list(data_panen)
+print('aku sayang rokok')
